@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background-image:url("https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80");
+    background-size:fill;
+    
+
+    background-position:fixed;
+    
+    
+    
+}
+
+
+
+
+
+.container{
+   
+    color:white;
+    position:absolute;
+    top:0%;
+    left:16%;
+    
+}
+
+.container h1{
+    font-size:40px;
+    border-bottom:5px solid white;
+    margin-bottom:15px;
+    padding: 13px 0px;
+    color:#3ba870;
+    font-family: 'Heebo', sans-serif;
+    text-shadow:1px 1px 1px grey;
+
+}
+
+.box{
+    width:100%;
+    border-bottom:2px solid white;
+    margin:22px 0px;
+}
+
+.box input{
+    background:none;
+    width:75%;
+    margin:13px 0px;
+    padding:5px 10px;
+    font-size:20px;
+    border-style:none;
+    outline:none;
+    color:gold;
+   
+    
+    
+}
+
+
+
+.box i{
+    width:25px;
+    text-align:center;
+    padding:0px 12px;
+}
+
+i{
+    color:darkblue;
+}
+
+
+#herb{
+
+    color:#3ba870;
+    border-style:solid;
+    border-top-color:white;
+    border-left-color:white;
+    border-right-color:white;
+    border-bottom-color:white;
+    padding:5px;
+
+    animation:rotateanimation;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+
+
+
+
+
+
+
+
+@keyframes rotateanimation{
+    100%{transform:rotateY(360deg);}
+}
+
+
+
+label{
+    color:white;
+    font-size:20px;
+    font-family: 'Heebo', sans-serif;
+    text-shadow:1px 1px 1px grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#reset:hover{
+    color:black;
+    background:white;
+    
+}
+#reset{
+    cursor:pointer;
+    outline:none;
+    width:25%;
+    margin:12px 0px;
+    padding:6px;
+    border-radius:20px;
+    border:2px solid black ;
+    font-size:18px;
+    background:white;
+    padding:10px 21px;
+    font-weight:bold;
+    color:black;
+    
+}
+
+
+
+
+#submit:hover{
+    color:black;
+    background:white;
+    
+}
+#submit{
+    cursor:pointer;
+    outline:none;
+    width:25%;
+    margin:12px 0px;
+    padding:6px;
+    border-radius:20px;
+    border:2px solid black ;
+    font-size:18px;
+    background:white;
+    padding:10px 21px;
+    font-weight:bold;
+    color:black;
+    
+}
